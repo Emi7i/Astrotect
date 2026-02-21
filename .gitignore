@@ -1,0 +1,10 @@
+# Dataset
+dataset/*
+runs/
+
+# Python
+__pycache__
+.venv
+
+# Pycharm
+.idea

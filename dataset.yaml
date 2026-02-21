@@ -1,0 +1,13 @@
+# Dataset config
+
+path: ./dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names:
+  0: comet
+  1: galaxy
+  2: globular_cluster
+  3: nebula
