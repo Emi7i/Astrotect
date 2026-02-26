@@ -23,9 +23,21 @@ def validate() -> None:
     classifier = Classifier(use_detector_boxes=USE_DETECTOR_BOXES)
     classifier.validate()
 
+def test() -> None:
+    # Test detector
+    print("──────────────────[ TESTING DETECTOR ]──────────────────")
+    detector = Detector()
+    detector.test()
+
+    # Test classifier
+    print("──────────────────[ TESTING CLASSIFIER ]──────────────────")
+    classifier = Classifier(use_detector_boxes=USE_DETECTOR_BOXES)
+    classifier.test()
+
 if __name__ == "__main__":
     # Example usage
     # train_detector()
     # train_classifier()
-    validate()
+    # validate()
+    test()
     print("──────────────────[ DONE ]──────────────────")

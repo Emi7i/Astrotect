@@ -204,5 +204,5 @@ class Detector:
         out_path = OUTPUT_DIR / f"predictions_{split}.png"
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         plt.savefig(out_path, dpi=150, bbox_inches="tight", facecolor=fig.get_facecolor())
-        plt.show(fig)
+        plt.show()
         print(f"[INFO] Saved to {out_path}")
